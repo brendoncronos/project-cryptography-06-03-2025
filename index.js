@@ -1,6 +1,6 @@
-require('./hashing');
-
 console.log("\n🚀 Demonstrando Hashing...");
+
+require('./hashing');
 
 setTimeout(() => {
     console.log("\n🚀 Demonstrando Criptografia Simétrica...");
@@ -10,6 +10,6 @@ setTimeout(() => {
 
 setTimeout(() => {
     console.log("\n🚀 Demonstrando Criptografia Assimétrica...");
-    
+
     require('./assimetrica');
 }, 4000);
